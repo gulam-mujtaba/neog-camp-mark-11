@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  font-family: cursive;
+  margin: 2rem 2rem 0px 2rem;
+
+  background-color: #ffc9a2;
+  background-blend-mode: screen;
+  image-rendering: optimizeSpeed;
+
+  background-image: url(https://cdn.pixabay.com/photo/2019/12/02/04/23/maneki-neko-4666877_960_720.jpg);
+}
+
+.heading {
+  color: #b84a17;
+  font-weight: bolder;
+}
+
+p {
+  color: #803501;
+  font-size: larger;
+  margin: 10px;
+  padding: 10px;
+}
+
+#birth-date,
+#lucky-number {
+  margin: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  border-color: #c05204;
+  max-width: 20pc;
+  width: 20pc;
+}
+
+button {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  color: #e0a276;
+  font-family: cursive;
+  font-size: medium;
+  background-color: #291100;
+  border-color: #c05204;
+}
+input {
+  font-family: cursive;
+  font-weight: bold;
+}
+#text {
+  color: #552b0d;
+  font-size: x-large;
+  padding-top: 10px;
+}
+footer {
+  background-color: #aa6c50;
+  border-radius: 25px 25px 0 0px;
+  padding: 10px;
+}
+.non-bullet-list-bottom {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 2rem;
+  padding: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #291100;
+}

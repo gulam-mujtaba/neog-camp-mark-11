@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucky Birthday App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Is your Birthday Lucky ?</h1>
+      <p>Let's find out if your Birth date is Lucky enough?</p>
+      <label for="birth-date">Enter your Date of Birth :</label>
+      <input
+        id="birth-date"
+        type="date"
+        maxlength="4"
+        onkeyup="jump (this, lucky-number)"
+      />
+      <br />
+      <label for="lucky-number">Enter your Lucky Number :</label>
+      <input id="lucky-number" type="number" maxlength="1" />
+      <br />
+
+      <button id="check">Lets Find Out</button>
+    </div>
+
+    <div id="text"></div>
+    <br /><br /><br />
+
+    <script src="script.js"></script>
+
+    <footer>
+      <div class="connect">Let's Connect</div>
+      <ul class="non-bullet-list-bottom">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/gulam-mujtaba">GitHub</a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://in.linkedin.com/in/gulam-mohammad-mujtaba-1b735119b"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/gulammohammad15">Twitter</a>
+        </li>
+      </ul>
+      <a class="link" href="privacy.html">Privacy Policy</a>
+    </footer>
+  </body>
+</html>
